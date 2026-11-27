@@ -57,3 +57,8 @@ test("Lynk kit has paste-ready web button copy", () => {
 test("README links the iOS guide", () => {
   assert.ok(read("README.md").includes("docs/IOS.md"));
 });
+
+test("test script uses Node 22-compatible discovery", () => {
+  const pkg = JSON.parse(read("package.json"));
+  assert.equal(pkg.scripts.test, "node --test");
+});
