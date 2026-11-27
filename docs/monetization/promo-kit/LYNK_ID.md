@@ -166,9 +166,9 @@ karena versi iOS memakai web app, bukan App Store.
 
 | Label tombol | Tujuan |
 | --- | --- |
-| 🌐 Coba ZhKas di iPhone/iPad | `URL_PUBLIC` |
+| 🌐 Coba ZhKas di iPhone/iPad | `https://zhtech703-debug.github.io` |
 
-Ganti `URL_PUBLIC` dengan alamat GitHub Pages yang sudah aktif (lihat
+Alamat GitHub Pages sudah aktif dan terverifikasi (lihat
 [`docs/GITHUB_PAGES.md`](../../GITHUB_PAGES.md)). Setelah tombol dipasang, buka
 `https://lynk.id/zhkas` di Safari untuk memastikan tautannya hidup. Donasi tetap
 sukarela dan tidak membuka fitur apa pun.

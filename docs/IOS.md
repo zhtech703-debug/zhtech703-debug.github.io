@@ -1,14 +1,14 @@
 # ZhKas untuk iPhone & iPad (web app / PWA)
 
 ZhKas berjalan di iOS sebagai **web app** yang dipasang dari Safari. Alamat web
-publik: **`URL_PUBLIC`** (ganti placeholder ini setelah GitHub Pages aktif —
+publik: **`https://zhtech703-debug.github.io`** (hosting gratis GitHub Pages —
 lihat [`GITHUB_PAGES.md`](GITHUB_PAGES.md)). Tidak ada aplikasi App Store, tidak
 ada akun, tidak ada iklan, dan tidak ada biaya. Data tetap disimpan di browser
 pada perangkat Anda.
 
 ## Install
 
-1. Buka **`URL_PUBLIC`** di **Safari** (Chrome/Firefox di iOS tidak bisa memasang
+1. Buka **`https://zhtech703-debug.github.io`** di **Safari** (Chrome/Firefox di iOS tidak bisa memasang
    web app ke layar utama).
 2. Ketuk tombol **Bagikan** (kotak dengan panah ke atas).
 3. Pilih **Tambahkan ke Layar Utama**.
@@ -57,7 +57,7 @@ data yang dikirim ke server ZhKas.
 
 ## Checklist uji di iPhone/iPad
 
-- [ ] Buka URL_PUBLIC di Safari
+- [ ] Buka https://zhtech703-debug.github.io di Safari
 - [ ] Ketuk Bagikan → Tambahkan ke Layar Utama → Tambah; ikon muncul di layar utama
 - [ ] Buka ikon: tampil full-screen, tanpa bilah alamat Safari
 - [ ] Tambah transaksi, tutup aplikasi, buka lagi: data masih ada

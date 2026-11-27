@@ -18,12 +18,12 @@ test("Pages workflow builds dist and deploys it", () => {
   }
 });
 
-test("iOS guide has URL placeholder and user test checklist", () => {
+test("iOS guide has final URL and user test checklist", () => {
   const guide = read("docs/IOS.md");
   for (const needle of [
-    "URL_PUBLIC",
+    "https://zhtech703-debug.github.io",
     "Tambahkan ke Layar Utama",
-    "[ ] Buka URL_PUBLIC di Safari",
+    "[ ] Buka https://zhtech703-debug.github.io di Safari",
     "[ ] Matikan internet",
     "Google Drive",
     "zhtech703@gmail.com",
@@ -41,7 +41,7 @@ test("handoff docs require a site-root repository", () => {
     "<username>.github.io",
     "git push -u origin main",
     "Settings → Pages",
-    "URL_PUBLIC",
+    "https://zhtech703-debug.github.io",
     "key.properties",
   ]) {
     assert.ok(pages.includes(needle), `missing ${needle}`);
@@ -51,7 +51,7 @@ test("handoff docs require a site-root repository", () => {
 test("Lynk kit has paste-ready web button copy", () => {
   const lynk = read("docs/monetization/promo-kit/LYNK_ID.md");
   assert.ok(lynk.includes("Web app untuk iPhone/iPad"));
-  assert.ok(lynk.includes("URL_PUBLIC"));
+  assert.ok(lynk.includes("https://zhtech703-debug.github.io"));
 });
 
 test("README links the iOS guide", () => {

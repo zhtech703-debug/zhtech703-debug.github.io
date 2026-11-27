@@ -52,8 +52,9 @@ HTTPS yang terbentuk, misalnya `https://<username>.github.io`.
 
 Ganti semua placeholder `URL_PUBLIC` di `docs/IOS.md` dan
 `docs/monetization/promo-kit/LYNK_ID.md` (di folder sumber `zhkas/`) dengan alamat
-HTTPS tersebut. Setelah itu, ikuti checklist di `docs/IOS.md` pada iPhone/iPad
-Anda, lalu pasang tombol web di Lynk.id.
+HTTPS tersebut. Untuk repo ini alamat finalnya sudah terpasang:
+**`https://zhtech703-debug.github.io`**. Setelah itu, ikuti checklist di
+`docs/IOS.md` pada iPhone/iPad Anda, lalu pasang tombol web di Lynk.id.
 
 ## 6. Catatan keamanan
 
